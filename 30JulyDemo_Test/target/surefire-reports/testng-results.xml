@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-21T12:35:38 IST" name="Suite" finished-at="2023-01-21T12:38:25 IST" duration-ms="166992">
+    <groups>
+    </groups>
+    <test started-at="2023-01-21T12:35:38 IST" name="Test" finished-at="2023-01-21T12:38:25 IST" duration-ms="166992">
+      <class name="Com.Ecommerce.TestCases.TC_LoginTestcase">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginTestcase@24269709]" started-at="2023-01-21T12:36:34 IST" name="initialization" finished-at="2023-01-21T12:36:41 IST" duration-ms="6666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginTestCase()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginTestcase@24269709]" started-at="2023-01-21T12:36:41 IST" name="LoginTestCase" finished-at="2023-01-21T12:36:55 IST" duration-ms="14086" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at Com.Ecommerce.TestCases.TC_LoginTestcase.LoginTestCase(TC_LoginTestcase.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginTestcase@24269709]" started-at="2023-01-21T12:36:55 IST" name="TearDown" finished-at="2023-01-21T12:36:56 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Ecommerce.TestCases.TC_LoginTestcase -->
+      <class name="Com.Ecommerce.TestCases.TC_LoginDataTestCase">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:36:57 IST" name="initialization" finished-at="2023-01-21T12:37:03 IST" duration-ms="6820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:03 IST" name="LoginData" data-provider="LoginData" finished-at="2023-01-21T12:37:14 IST" duration-ms="10992" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSSSSS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at Com.Ecommerce.TestCases.TC_LoginDataTestCase.LoginData(TC_LoginDataTestCase.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:15 IST" name="TearDown" finished-at="2023-01-21T12:37:15 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:15 IST" name="initialization" finished-at="2023-01-21T12:37:21 IST" duration-ms="5765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:21 IST" name="LoginData" data-provider="LoginData" finished-at="2023-01-21T12:37:31 IST" duration-ms="10857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSSSS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:31 IST" name="TearDown" finished-at="2023-01-21T12:37:32 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:32 IST" name="initialization" finished-at="2023-01-21T12:37:40 IST" duration-ms="8769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:40 IST" name="LoginData" data-provider="LoginData" finished-at="2023-01-21T12:37:51 IST" duration-ms="10875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DSS@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSSSSS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:51 IST" name="TearDown" finished-at="2023-01-21T12:37:51 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:51 IST" name="initialization" finished-at="2023-01-21T12:37:58 IST" duration-ms="6612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:37:58 IST" name="LoginData" data-provider="LoginData" finished-at="2023-01-21T12:38:09 IST" duration-ms="10886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DA@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSSSSSs]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:38:09 IST" name="TearDown" finished-at="2023-01-21T12:38:09 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:38:09 IST" name="initialization" finished-at="2023-01-21T12:38:15 IST" duration-ms="5870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="LoginData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:38:15 IST" name="LoginData" data-provider="LoginData" finished-at="2023-01-21T12:38:25 IST" duration-ms="10163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DSS@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SSSSSS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginData -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_LoginDataTestCase@2aceadd4]" started-at="2023-01-21T12:38:25 IST" name="TearDown" finished-at="2023-01-21T12:38:25 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Ecommerce.TestCases.TC_LoginDataTestCase -->
+      <class name="Com.Ecommerce.TestCases.TC_AddToCart">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_AddToCart@229f66ed]" started-at="2023-01-21T12:35:38 IST" name="initialization" finished-at="2023-01-21T12:35:48 IST" duration-ms="10141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="AddProduct()[pri:0, instance:Com.Ecommerce.TestCases.TC_AddToCart@229f66ed]" started-at="2023-01-21T12:35:48 IST" name="AddProduct" finished-at="2023-01-21T12:36:22 IST" duration-ms="33238" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Computers ')]"}
+  (Session info: chrome=109.0.5414.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a843fdd714514e3c432f326a3ffb64b5, findElement {using=xpath, value=//a[contains(text(),'Computers ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/lr/yy6cc25x09d...}, goog:chromeOptions: {debuggerAddress: localhost:55842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55842/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a843fdd714514e3c432f326a3ffb64b5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Computers ')]"}
+  (Session info: chrome=109.0.5414.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5.1', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a843fdd714514e3c432f326a3ffb64b5, findElement {using=xpath, value=//a[contains(text(),'Computers ')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.87, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/lr/yy6cc25x09d...}, goog:chromeOptions: {debuggerAddress: localhost:55842}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55842/devtoo..., se:cdpVersion: 109.0.5414.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a843fdd714514e3c432f326a3ffb64b5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at Com.Ecommerce.TestCases.TC_AddToCart.AddProduct(TC_AddToCart.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_AddToCart@229f66ed]" started-at="2023-01-21T12:36:22 IST" name="TearDown" finished-at="2023-01-21T12:36:22 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Ecommerce.TestCases.TC_AddToCart -->
+      <class name="Com.Ecommerce.TestCases.TC_NewRegistration">
+        <test-method is-config="true" signature="initialization(java.lang.String)[pri:0, instance:Com.Ecommerce.TestCases.TC_NewRegistration@7a8c8dcf]" started-at="2023-01-21T12:36:22 IST" name="initialization" finished-at="2023-01-21T12:36:31 IST" duration-ms="8791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="Registration()[pri:0, instance:Com.Ecommerce.TestCases.TC_NewRegistration@7a8c8dcf]" started-at="2023-01-21T12:36:31 IST" name="Registration" finished-at="2023-01-21T12:36:34 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Com.Ecommerce.TestCases.TC_NewRegistration@7a8c8dcf]" started-at="2023-01-21T12:36:34 IST" name="TearDown" finished-at="2023-01-21T12:36:34 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Com.Ecommerce.TestCases.TC_NewRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
